@@ -3,7 +3,7 @@
 Raycast extension that fetches YouTube transcripts via `yt-dlp`, stores them locally,
 and layers AI summaries, Q&A, search, and export on top.
 
-- Status: actively maintained, published to the Raycast Store
+- Status: actively maintained, not yet published to the Raycast Store
 - Stack: TypeScript, React, `@raycast/api`, vitest
 - Current focus and open work: [`context.md`](context.md)
 

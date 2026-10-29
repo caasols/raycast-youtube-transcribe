@@ -10,15 +10,13 @@ A Raycast extension for fetching, browsing, and exporting YouTube transcripts wi
 
 ## Installation
 
-### Raycast Store
-
-Install directly from the [Raycast Store](https://www.raycast.com/caasols/youtube-transcribe).
+Not yet published to the Raycast Store; install it from source.
 
 ### Manual
 
 ```bash
-git clone https://github.com/caasols/raycast-youtube-scribe.git
-cd raycast-youtube-scribe
+git clone https://github.com/caasols/raycast-youtube-transcribe.git
+cd raycast-youtube-transcribe
 npm install && npm run dev
 ```
 
@@ -127,7 +125,7 @@ Open **Raycast Preferences > Extensions > YouTube Transcribe** to customize:
 5. **Rate limiting (429 errors)** — the extension retries automatically with backoff. If fetches keep failing, wait a moment before trying again. Avoid fetching multiple videos in rapid succession.
 6. **Python deprecation warnings** — if you see warnings about Python 3.9, upgrade Python from [python.org](https://www.python.org/downloads/).
 
-For persistent issues, [open an issue](https://github.com/caasols/raycast-youtube-scribe/issues) with reproduction steps.
+For persistent issues, [open an issue](https://github.com/caasols/raycast-youtube-transcribe/issues) with reproduction steps.
 
 ## Development
 
